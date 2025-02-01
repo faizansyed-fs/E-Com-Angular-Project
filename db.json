@@ -1,0 +1,880 @@
+{
+  "seller": [
+    {
+      "id": "12f2",
+      "name": "Faizan Syed",
+      "email": "syedfaizan@klickyfinds.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "ecfc",
+      "name": "Aman Syed",
+      "email": "syedaman@klickyfinds.com",
+      "password": "abc@123"
+    },
+    {
+      "name": "Yumna Zaidi",
+      "email": "Zaidi.yumna@futurecars.com",
+      "password": "abc@123",
+      "id": "ZziRe4s"
+    },
+    {
+      "name": "Faizan Syed",
+      "email": "faizan.s@klickyfinds.com",
+      "password": "Abc@123",
+      "id": "CpBRftS"
+    }
+  ],
+  "products": [
+    {
+      "name": "Apple iPhone 16 Pro Max (Teal Blue, 1TB)",
+      "price": "220000",
+      "category": "Mobile",
+      "color": "Teal",
+      "description": "iPhone 16 Pro Max. Built for Apple Intelligence. Featuring a stunning titanium design. Camera Control. 4K 120 fps Dolby Vision. And A18 Pro chip.",
+      "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020_big.jpg.large.jpg",
+      "id": "37f7"
+    },
+    {
+      "name": "SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)",
+      "price": "121999",
+      "category": "Mobile",
+      "color": "Grey",
+      "description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication",
+      "image": "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titanium-black-back-mo.jpg?imbypass=true",
+      "id": "0235"
+    },
+    {
+      "name": "SAMSUNG Galaxy Book4 Intel Core i5 13th Gen ",
+      "price": "60990",
+      "category": "Laptop",
+      "color": "Gray",
+      "description": "With a 13th-generation Intel Core CPU for fluid productivity, up to 1 TB of SSD storage, and Intel Xe graphics for entertainment, the Samsung Galaxy Book4 laptop is a great device.",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-02/02/full/1675276577-6638.jpg?im=FeatureCrop,size=(826,465)",
+      "id": "3b08"
+    },
+    {
+      "id": "4786",
+      "name": "Sansui 218 cm (86 inch) Ultra HD (4K) LED Smart Android TV",
+      "price": "219000",
+      "category": "Television",
+      "color": "Black",
+      "description": "The dazzling Sansui TV knows your rhythm and aims to keep you delighted continually. Experience rich, clear, and real audiovisual content in its full glory. ",
+      "image": "https://www.91-img.com/pictures/television/lg/lg-86qned99tpz-152511-large-1.jpg?tr=h-180,c-at_max,tr:t-5,q-80,t-true"
+    },
+    {
+      "name": "SAMSUNG Neo QLED (85 inch) QLED Ultra HD (4K) Smart Tizen TV",
+      "price": "799900",
+      "category": "Television",
+      "color": "White",
+      "description": "This Samsung TV brings every colour to life with its Neo Quantum HDR+ technology. The Quantum Matrix technology provides detailed and sharp visuals every time. Thanks to the Neural Quantum Processor, you can immerse yourself in 4K visuals.",
+      "image": "https://i.ytimg.com/vi/T1rmtqPCRP4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCEVIguQ671dZSeDKCw_Vs6oKT0GA",
+      "id": "6720"
+    },
+    {
+      "name": "SAMSUNG Galaxy S23 Ultra 5G (Titanium Black, 256 GB) ",
+      "price": "110999",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication",
+      "image": "https://images.samsung.com/in/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-design-end.jpg?imbypass=true",
+      "id": "fa8a"
+    },
+    {
+      "name": "Apple iPhone 12 (White, 256 GB)",
+      "price": "64900",
+      "category": "Mobile",
+      "color": "Blue",
+      "description": "\nDive into a world of crystal-clear visuals with this iPhone’s Super Retina XDR Display. This beast of a smartphone packs the A14 Bionic chip to make for blazing-fast performance speeds.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dkyh2zgrh.jpeg?q=70",
+      "id": "LL1RefA"
+    },
+    {
+      "name": "Apple iPhone 12 mini (Red, 256 GB)",
+      "price": "74900",
+      "category": "Mobile",
+      "color": "Red",
+      "description": "Dive into a world of crystal-clear visuals with the Super Retina XDR Display of the iPhone 12 Mini. This beast of a smartphone packs the A14 Bionic chip to make for blazing-fast performance speeds.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/n/2/u/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfxuhswfgj.jpeg?q=70",
+      "id": "cnEzwpN"
+    },
+    {
+      "name": "Apple iPhone 12 Pro (Grey, 512 GB)",
+      "price": "139900",
+      "category": "Mobile",
+      "color": "Grey",
+      "description": "Dive into a world of crystal-clear visuals with the Super Retina XDR Display of the iPhone 12 Pro. This beast of a smartphone packs the A14 Bionic chip to make for blazing-fast performance speeds.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/u/q/d/apple-iphone-12-pro-dummyapplefsn-original-imafwgbrbzjgug4j.jpeg?q=70",
+      "id": "vNRi9Vz"
+    },
+    {
+      "name": "Apple iPhone 12 Pro Max (Gold, 512 GB)",
+      "price": "149900",
+      "category": "Mobile",
+      "color": "Gold",
+      "description": "Dive into a world of crystal-clear visuals with the Super Retina XDR Display of the iPhone 12 Pro Max. This beast of a smartphone packs the A14 Bionic chip to make for blazing-fast performance speeds.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/g/n/w/apple-iphone-12-pro-max-dummyapplefsn-original-imafwgcyauknkgwh.jpeg?q=70",
+      "id": "1c3_rvV"
+    },
+    {
+      "name": "Apple iPhone 13 (Pink, 512 GB)",
+      "price": "73499",
+      "category": "Mobile",
+      "color": "Pink",
+      "description": "\niPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/v/p/-original-imah4jyfcjgcghqs.jpeg?q=70",
+      "id": "Sf1VyDO"
+    },
+    {
+      "name": "Apple iPhone 13 mini (Blue, 512 GB)",
+      "price": "94900",
+      "category": "Mobile",
+      "color": "Blue",
+      "description": "\niPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/ktketu80/mobile/a/i/l/iphone-13-mini-mlk93hn-a-apple-original-imag6vp6x67yypzk.jpeg?q=70",
+      "id": "k6Scdsh"
+    },
+    {
+      "name": "Apple iPhone 13 Pro (Graphite, 1 TB)",
+      "price": "169900",
+      "category": "Mobile",
+      "color": "Graphite",
+      "description": "iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/ktketu80/mobile/3/e/o/iphone-13-pro-max-mll63hn-a-apple-original-imag6vpgwfgxdsj6.jpeg?q=70",
+      "id": "67Ho6QO"
+    },
+    {
+      "name": " Apple iPhone 13 Pro Max (Sierra Blue, 1 TB)",
+      "price": "179900",
+      "category": "Mobile",
+      "color": "blue",
+      "description": "\niPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity. Furthermore, the lightning-fast A15 Bionic chip allows for seamless multitasking, elevating your performance to a new dimension.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/ktketu80/mobile/r/m/8/iphone-13-pro-max-mllj3hn-a-apple-original-imag6vpgphrzuffg.jpeg?q=70",
+      "id": "AXkmj_e"
+    },
+    {
+      "name": "Apple iPhone 14  (Yellow, 512 GB)",
+      "price": "81999",
+      "category": "Mobile",
+      "color": "Yellow",
+      "description": "Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family. With a built-in rechargeable lithium-ion battery and equipped with the MagSafe wireless charging, you can charge your phone quickly up to 50 % in just half an hour by using a 20 W adapter.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/0/h/8/-original-imagnhussytbyhpd.jpeg?q=70",
+      "id": "lLaoMq_"
+    },
+    {
+      "name": "Apple iPhone 14 Plus (Purple, 512 GB)",
+      "price": "99900",
+      "category": "Mobile",
+      "color": "Purple",
+      "description": "\nStay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/0/t/-original-imaghxa5rgcv5enm.jpeg?q=70",
+      "id": "84YzZwi"
+    },
+    {
+      "name": "Apple iPhone 14 Pro (Silver, 1 TB)",
+      "price": "169900",
+      "category": "Mobile",
+      "color": "Silver",
+      "description": "Description : Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/r/e/-original-imaghxeeme2n7hy7.jpeg?q=70",
+      "id": "2ZzypUG"
+    },
+    {
+      "name": "Apple iPhone 14 Pro Max (Deep Purple, 1 TB)",
+      "price": "184900",
+      "category": "Mobile",
+      "color": "Purple",
+      "description": "Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/x/j/-original-imaghxejqvpwfqh2.jpeg?q=70",
+      "id": "xjYh3_y"
+    },
+    {
+      "name": "Apple iPhone 15 (Green, 512 GB)",
+      "price": "99900",
+      "category": "Mobile",
+      "color": "Green",
+      "description": "Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70",
+      "id": "LLLSQFI"
+    },
+    {
+      "name": "Apple iPhone 15 Plus (Pink, 256 GB)",
+      "price": "76999",
+      "category": "Mobile",
+      "color": "Pink",
+      "description": "Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70",
+      "id": "nyORHm6"
+    },
+    {
+      "name": "Apple iPhone 15 Pro (Black Titanium, 512 GB)",
+      "price": "164900",
+      "category": "Mobile",
+      "color": "Black Titanium",
+      "description": "\niPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/0/q/d/-original-imagtc4hzawdcp4g.jpeg?q=70",
+      "id": "5LG0Jk4"
+    },
+    {
+      "name": "Apple iPhone 15 Pro Max (Natural Titanium, 512 GB)",
+      "price": "179900",
+      "category": "Mobile",
+      "color": "Natural Titanium",
+      "description": "iPhone 15 Pro Max, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48 MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/q/i/-original-imagtc3kfyhgfcvr.jpeg?q=70",
+      "id": "xaKgRS6"
+    },
+    {
+      "name": "Apple iPhone 16 (White, 512 GB)",
+      "price": "99999",
+      "category": "Mobile",
+      "color": "White",
+      "description": "iPhone 16. Built for Apple Intelligence. Featuring Camera Control. 48 MP Fusion camera. Five vibrant colours. And A18 chip.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/v/p/-original-imah4jyfveygyubc.jpeg?q=70",
+      "id": "fgjocIL"
+    },
+    {
+      "name": "Apple iPhone 16 Plus (Teal, 512 GB)",
+      "price": "109999",
+      "category": "Mobile",
+      "color": "Teal",
+      "description": "iPhone 16 Plus. Built for Apple Intelligence. Featuring Camera Control. 48 MP Fusion camera. Five vibrant colours. And A18 chip.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/8/p/-original-imah4jykf9e4a244.jpeg?q=70",
+      "id": "0Nn9kEU"
+    },
+    {
+      "name": "Apple iPhone 16 Pro (White Titanium, 1 TB)",
+      "price": "162900",
+      "category": "Mobile",
+      "color": "White",
+      "description": "\niPhone 16 Pro. Built for Apple Intelligence. Featuring a stunning titanium design. Camera Control. 4K 120 fps Dolby Vision. And A18 Pro chip.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/5/2/-original-imah4jywyma4j8vy.jpeg?q=70",
+      "id": "55v4zUb"
+    },
+    {
+      "name": "Apple iPhone 16 Pro Max (Desert Titanium, 1 TB)",
+      "price": "184900",
+      "category": "Mobile",
+      "color": "White",
+      "description": "iPhone 16 Pro Max. Built for Apple Intelligence. Featuring a stunning titanium design. Camera Control. 4K 120 fps Dolby Vision. And A18 Pro chip.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/v/y/-original-imah4jz66dmcwhmd.jpeg?q=70",
+      "id": "EqLlYSQ"
+    },
+    {
+      "name": "LEVI'S Men Slim Mid Rise Blue Jeans",
+      "price": "3199",
+      "category": "Jeans",
+      "color": "Blue",
+      "description": "NA",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/v/1/k/-original-imah3fuygaxd5r8q.jpeg?q=70",
+      "id": "Y3W3xb_"
+    },
+    {
+      "name": "KILLER Men Slim Mid Rise Blue Jeans",
+      "price": "2999",
+      "category": "Jeans",
+      "color": "Blue",
+      "description": "NA",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/g/g/t/32-kjo-90502-slm-slmft-mding-killer-original-imah7jn7wkbh2fzd.jpeg?q=70",
+      "id": "KF-f9dP"
+    },
+    {
+      "name": "Spykar Men Straight Fit Mid Rise Grey Jeans",
+      "price": "3599",
+      "category": "Jeans",
+      "color": "Blue",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/8/e/m/30-rc02bb06ltgrey-spykar-original-imagmzkcrbpqn7fs.jpeg?q=70",
+      "id": "pUpZ588"
+    },
+    {
+      "name": "Pepe Jeans Men Slim Mid Rise Blue Jeans",
+      "price": "1405",
+      "category": "Jeans",
+      "color": "Blue",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/q/s/k/32-pm207158h55-pepe-jeans-original-imagtyed76x4uw9a.jpeg?q=70",
+      "id": "iPpsHbT"
+    },
+    {
+      "name": "KILLER Men Slim Mid Rise Black Jeans",
+      "price": "1151",
+      "category": "Jeans",
+      "color": "Black",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/y/b/c/32-kjo-90725-slm-slmft-bk-killer-original-imah8766mpswyh2q.jpeg?q=70",
+      "id": "oqtGiYy"
+    },
+    {
+      "name": "LEVI'S Men Slim Mid Rise Beige Jeans",
+      "price": "1319",
+      "category": "Jeans",
+      "color": "Beige",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/s/k/i/30-18298-1484-levi-s-original-imagw4varb3mruhs.jpeg?q=70",
+      "id": "GxXSL2R"
+    },
+    {
+      "name": "Pepe Jeans Men Regular Mid Rise Grey Jeans",
+      "price": "2399",
+      "category": "Jeans",
+      "color": "Grey",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/z/c/c/40-pm208176q071-mid-grey-used-pepe-jeans-original-imah5y4qjxjun3wy.jpeg?q=70",
+      "id": "UTe4Y9o"
+    },
+    {
+      "name": "Pepe Jeans Men Skinny Mid Rise White Jeans",
+      "price": "2279",
+      "category": "Jeans",
+      "color": "White",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/v/x/z/30-pm208133p578-white-pepe-jeans-original-imah5y4q7apwykpe.jpeg?q=70",
+      "id": "bglgvZq"
+    },
+    {
+      "name": "Pepe Jeans Men Skinny Mid Rise White Jeans",
+      "price": "3998",
+      "category": "Jeans",
+      "color": "White",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/t/k/j/28-pm208124p571-white-rinse-pepe-jeans-original-imah3yughng3zea6.jpeg?q=70",
+      "id": "id4EuUC"
+    },
+    {
+      "name": "LEE Men Slim Mid Rise White Jeans",
+      "price": "3599",
+      "category": "Jeans",
+      "color": "White",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/n/9/l/38-lmjn004183-lee-original-imaguzdg5ef5wyhu.jpeg?q=70",
+      "id": "GQ05Wgy"
+    },
+    {
+      "name": "Spykar Men Slim Mid Rise Beige Jeans",
+      "price": "3499",
+      "category": "Jeans",
+      "color": "Beige",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/l4fxh8w0/jean/a/9/v/29-skn02bb19sand-spykar-original-imagfcb9jvxutc5s.jpeg?q=70",
+      "id": "9WIVfVp"
+    },
+    {
+      "name": "Spykar Men Regular Mid Rise Beige Jeans",
+      "price": "3499",
+      "category": "Jeans",
+      "color": "Beige",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/l/y/7/29-mdro1bc026dkkhaki-spykar-original-imaghgmfybysazdk.jpeg?q=70",
+      "id": "29iTBpf"
+    },
+    {
+      "name": "Pepe Jeans Men Slim Mid Rise Black, Grey Jeans",
+      "price": "1259",
+      "category": "Jeans",
+      "color": "Black",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/r/b/z/28-pm207939q013-pepe-jeans-original-imagxtzh5gfxv4yf.jpeg?q=70",
+      "id": "UaSP_-n"
+    },
+    {
+      "name": "Pepe Jeans Men Regular Mid Rise Grey Jeans",
+      "price": "1899",
+      "category": "Jeans",
+      "color": "Grey",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/r/d/k/32-pm208031q073-pepe-jeans-original-imahyb5zvzhxrxrf.jpeg?q=70",
+      "id": "MdBDDdd"
+    },
+    {
+      "name": "Allen Cooper Men Regular Mid Rise Beige Jeans",
+      "price": "1329",
+      "category": "Jeans",
+      "color": "Beige",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/4/r/p/34-acdnm-93-beige-allen-cooper-original-imagr6tbx9qgwfva.jpeg?q=70",
+      "id": "6sqDnkG"
+    },
+    {
+      "name": "Spykar Men Slim Mid Rise Beige Jeans",
+      "price": "1575",
+      "category": "Jeans",
+      "color": "Beige",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/l/b/p/31-mdkn1bc031sand-spykar-original-imagmy5hwuvem8c9.jpeg?q=70",
+      "id": "xInF8IA"
+    },
+    {
+      "name": "Allen Solly Men Regular Fit Solid Cut Away Collar Casual Shirt",
+      "price": "1699",
+      "category": "Shirt",
+      "color": "White",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/p/e/i/-original-imagzrp8q7dbtyep.jpeg?q=70",
+      "id": "wyUMB5y"
+    },
+    {
+      "name": "Vellical Men Slim Fit Checkered Spread Collar Casual Shirt  (Pack of 2)",
+      "price": "419",
+      "category": "Shirt",
+      "color": "Blue",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/t/p/x/xl-vs-ch-multi-vellical-original-imah6gygnymfrkkj.jpeg?q=70",
+      "id": "Anmc293"
+    },
+    {
+      "name": "DIMMY Men Slim Fit Solid Button Down Collar Casual Shirt",
+      "price": "349",
+      "category": "Shirt",
+      "color": "Purple",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/i/5/x/l-dgflortewz11-dimmy-original-imagrnr8gqy92394.jpeg?q=70",
+      "id": "LnaePOk"
+    },
+    {
+      "name": "JACKBELLA Men Regular Fit Self Design Spread Collar Casual Shirt",
+      "price": "1499",
+      "category": "Shirt",
+      "color": "Green",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/a/7/a/xl-boxds-jackbella-original-imah3dnghyvutgpr.jpeg?q=70",
+      "id": "nOTYLaM"
+    },
+    {
+      "name": "THE BEAR HOUSE Men Slim Fit Checkered Casual Shirt",
+      "price": "673",
+      "category": "Shirt",
+      "color": "Brown",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/c/3/j/s-tbh-andreas-mr-the-bear-house-original-imah53f7smzrxpkr.jpeg?q=70",
+      "id": "z3_5Cmf"
+    },
+    {
+      "name": "U.S. POLO ASSN.  Men Tailored Fit Solid Cut Away Collar Casual Shirt",
+      "price": "1049",
+      "category": "Shirt",
+      "color": "White",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/r/k/n/m-usshto3417-u-s-polo-assn-original-imah89cgcz2ffbjz.jpeg?q=70",
+      "id": "CHnEbVv"
+    },
+    {
+      "name": "MILDIN Men Slim Fit Solid Spread Collar Casual Shirt#JustHere",
+      "price": "379",
+      "category": "Shirt",
+      "color": "Purple",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/f/d/a/m-plain-collar-20072022-mildin-original-imah2ea9jxcwghcg.jpeg?q=70",
+      "id": "gXDPTA8"
+    },
+    {
+      "name": "CLOSWIF Men Regular Fit Solid Spread Collar Casual Shirt",
+      "price": "299",
+      "category": "Shirt",
+      "color": "Blue",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/k/e/4/xxl-sh01-navy-gd-shiv-closwif-original-imah78zhjzy2dues.jpeg?q=70",
+      "id": "Xo4ihuP"
+    },
+    {
+      "name": "JACK & JONES Men Regular Fit Checkered Button Down Collar Casual Shirt",
+      "price": "1574",
+      "category": "Shirt",
+      "color": "Brown",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/b/u/r/l-232586001-jack-jones-original-imagymq9g7jzcb4y.jpeg?q=70",
+      "id": "t1B8xuX"
+    },
+    {
+      "name": "PETER ENGLAND Men Slim Fit Solid Spread Collar Casual Shirt",
+      "price": "1494",
+      "category": "Shirt",
+      "color": "Brown",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/d/f/d/38-pjsfaslfh53858-peter-england-original-imagnbysfuxzbaxt.jpeg?q=70",
+      "id": "EViw8x3"
+    },
+    {
+      "name": "JACK & JONES Men Slim Fit Color Block Spread Collar Casual Shirt",
+      "price": "1418",
+      "category": "Shirt",
+      "color": "Black",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/w/u/e/s-141443502-jack-jones-original-imagz22tjugz67zw.jpeg?q=70",
+      "id": "RPEnYGX"
+    },
+    {
+      "name": "MUFTI Men Slim Fit Floral Print Spread Collar Casual Shirt",
+      "price": "1250",
+      "category": "Shirt",
+      "color": "Green",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/u/x/z/4xl-mfs-14738-s-mufti-original-imagzsyuahcrjag2.jpeg?q=70",
+      "id": "BuOVLQA"
+    },
+    {
+      "name": "Allen Solly Men Regular Fit Solid Spread Collar Casual Shirt",
+      "price": "934",
+      "category": "Shirt",
+      "color": "blue",
+      "description": "10 day return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/q/u/l/-original-imagqe4fapavfdsa.jpeg?q=70",
+      "id": "1CAvRVW"
+    },
+    {
+      "name": "BEING HUMAN Men Slim Fit Solid Casual Shirt",
+      "price": "703",
+      "category": "Shirt",
+      "color": "Green",
+      "description": "10 days return policy",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/r/u/7/m-bhmlslv24579-being-human-original-imah4kfh2t8zyy3y.jpeg?q=70",
+      "id": "jOdjvBz"
+    },
+    {
+      "name": "TCL C69B 139 cm (55 inch) QLED Ultra HD (4K) Smart Google TV with Dolby Atmos 35W, ONKYO 2.1ch with Subwoofer  (55C69B)",
+      "price": "36990",
+      "category": "Television",
+      "color": "Black",
+      "description": "7 Days Service Center Replacement/Repair",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/f/n/l/-original-imahykht8ydmy9ef.jpeg?q=70",
+      "id": "-Lspxvy"
+    },
+    {
+      "name": "Mi by Xiaomi X Pro QLED 108 cm (43 inch) QLED Ultra HD (4K) Smart Google TV 4K Dolby Vision | Dolby Audio |DTS Virtual: X",
+      "price": "34990",
+      "category": "Television",
+      "color": "Grey",
+      "description": "\nElevate your home entertainment to an unparalleled level with the Xiaomi X Pro QLED Series TV. Featuring cutting-edge QLED technology and the advanced Vivid Picture Engine 2, it delivers stunning color accuracy and breathtaking clarity, transforming every scene into a visual masterpiece. With 32 GB of internal storage, you have ample space for your favorite content.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/9/w/t/-original-imah4kwzh9hhtzzz.jpeg?q=70",
+      "id": "7rfEWQi"
+    },
+    {
+      "name": "SAMSUNG New D Series Brighter Crystal 4K Vision Pro (2024 Edition) 138 cm (55 inch) Ultra HD (4K) LED Smart Tizen TV with 4K Upscaling",
+      "price": "42990",
+      "category": "Television",
+      "color": "Black",
+      "description": "\nThe Samsung Crystal UHD Smart TV has an array of features for an exceptional theatre-like experience in the comfort of your home. You can see your favourite stars come to life on this TV, thanks to the PurColour featured in it. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/u/v/o/-original-imah2v2gamua43wz.jpeg?q=70",
+      "id": "kS0Ab7q"
+    },
+    {
+      "name": "SONY Bravia 2 163.9 cm (65 inch) Ultra HD (4K) LED Smart Google TV 2024 Edition with Feature for PlayStation 5  (K-65S25B)",
+      "price": "76990",
+      "category": "Television",
+      "color": "Black",
+      "description": "Experience stunning visuals and thrilling immersion with the Sony Bravia 2 TV. Its advanced upscaling technology elevates images to near-4K resolution, delivering vibrant colors, sharp contrasts, and fine details for a lifelike, engaging view.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/0/9/c/-original-imah2myzmrrc9kx5.jpeg?q=70",
+      "id": "CJnWNAP"
+    },
+    {
+      "name": "LG UR7500 164 cm (65 inch) Ultra HD (4K) LED Smart WebOS TV with Alpha5 AI Processor 4K Gen6, AI Picture Pro,",
+      "price": "62990",
+      "category": "Television",
+      "color": "White",
+      "description": "\nThe LG UR7500 TV is a masterpiece of visual technology, delivering breathtaking picture quality, immersive sound, and a range of features that enhance your entertainment experience.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/u/s/s/-original-imah5ykhqwfybqft.jpeg?q=70",
+      "id": "lpooiia"
+    },
+    {
+      "name": "Lloyd by Havells 587 L Frost Free Side by Side Refrigerator  (Stainless Steel Silver, GLSF590DSST1GB)",
+      "price": "84990",
+      "category": "Refrigerator",
+      "color": "Silver",
+      "description": "This Lloyd side-by-side refrigerator comes with a smart inverter compressor which helps to maintain the optimum temperature required to keep your food fresh.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/j/t/f/glsf590dsst1gb-1788-na-na-82-lloyd-690-895-original-imaggd2umzgfzjdp.jpeg?q=70",
+      "id": "BWhko0y"
+    },
+    {
+      "name": "LG 688 L Frost Free Side by Side 5 Star Refrigerator AI and WiFi, (Matt Black, GC-B257KQBV)",
+      "price": "120690",
+      "category": "Refrigerator",
+      "color": "Black",
+      "description": "7 Days Service Center Replacement/Repair",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/6/1/3/gc-b257kqbv-1790-5-2022-98-lg-743-913-original-imagham5fakne3ny.jpeg?q=70",
+      "id": "IyscySL"
+    },
+    {
+      "name": "SAMSUNG 653 L Frost Free Side by Side 5 Star Refrigerator with AI and WiFi, Convertible 5-in-1, Digital Inverter  (Black)",
+      "price": "150000",
+      "category": "Refrigerator",
+      "color": "Black",
+      "description": "You can operate your refrigerator through your smartphone, thanks to the Wi-Fi-enabled Samsung 653 L Side-by-side Refrigerator. Boasting AI-based SmartThings technology, this refrigerator can calculate its energy consumption and allows you to set a limit.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/3/f/k/-original-imah2my8xpbehv2v.jpeg?q=70",
+      "id": "8tt4UOe"
+    },
+    {
+      "name": "Whirlpool 215 L Direct Cool Single Door 5 Star Refrigerator  (Alpha Steel, 230 IMPRO PRM 5S INV ALPHA STEEL)",
+      "price": "26999",
+      "category": "Refrigerator",
+      "color": "Silver",
+      "description": "\nWith the stylish, powerful, and spacious Whirlpool 215 L Direct Cool Single Door Refrigerator in your home, you can eat garden-fresh, seasonal food for a long time. This home appliance features an advanced Insulated Capillary Technology to make ice fast and Whirlpool’s Zeolite technology to keep your vegetables and fruits garden fresh for days.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kdukgi80/refrigerator-new/g/n/8/230-impro-prm-5s-inv-5-whirlpool-original-imafunhgg6pfhrgy.jpeg?q=70",
+      "id": "bhlQp71"
+    },
+    {
+      "name": "Haier 190 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer  (Infinity Glass, HRD-2105PIG-P)",
+      "price": "26990",
+      "category": "Refrigerator",
+      "color": "Brown",
+      "description": "Base Stand with Drawer : For storing items that don't need cooling (Onion, Potato etc.)",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/y/3/a/hrd-2105pig-p-1100-5-2023-40-haier-400-500-original-imagrfnjtrwbumyr.jpeg?q=70",
+      "id": "MqSeuZD"
+    },
+    {
+      "name": "LG 185 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer with Smart Inverter Compressor, Smart Connect, Fast Ice Making  (Scarlet Euphoria, GL-D201ASEU)",
+      "price": "21000",
+      "category": "Refrigerator",
+      "color": "Red",
+      "description": "\nThis LG refrigerator has a smart inverter compressor that provides long-lasting freshness, reduces noise, and also ensures stabiliser-free operation.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/7/z/l/-original-imagywu2mrebtvgu.jpeg?q=70",
+      "id": "8oYm2zc"
+    },
+    {
+      "name": "LG 185 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer with Smart Inverter Compressor, Fast Ice Making  (Blue Charm, GL-D201ABCU)",
+      "price": "17490",
+      "category": "Refrigerator",
+      "color": "Blue",
+      "description": "\nThis LG refrigerator has a smart inverter compressor that provides long-lasting freshness, reduces noise, and also ensures stabiliser-free operation.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/l/1/g/-original-imagywu2q5vp5zaj.jpeg?q=70",
+      "id": "DuUSEgf"
+    },
+    {
+      "name": "LG 15/8 kg Washer with Dryer Fully Automatic Front Load Washer Dryer with AI Direct Drive Technology, Wi-Fi Enabled, In-built Heater Black  (FHD1508STB)",
+      "price": "119990",
+      "category": "Washing Machine",
+      "color": "Black",
+      "description": "2 Years Comprehensive Warranty on Product and 10 Years Warranty on Motor",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/b/s/k/15-77-fhd1508stb-0-0-65-4-81-lg-94-original-imah4ttfdxgdkr3r.jpeg?q=70",
+      "id": "WvF7WkX"
+    },
+    {
+      "name": "SAMSUNG 9 kg 5 Star, Eco Bubble Technology, AI Control , Wi-Fi Enabled , Digital Inverter Motor, Hygiene Steam, Fully Automatic Front Load Washing Machine with In-built Heater Black  (WW90T504DAN1TL)",
+      "price": "55990",
+      "category": "Washing Machine",
+      "color": "Black",
+      "description": "The Samsung 9 kg Fully Automatic Front Load washing machine is made to tackle challenging stains, allowing you to wash your clothes without fuss and always look presentable. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/4/e/h/-original-imah47quhabsrmk2.jpeg?q=70",
+      "id": "_mlk-ci"
+    },
+    {
+      "name": "LG 7 kg 5 Star with Steam, Inverter Direct Drive Technology, 6 Motion Direct Drive, Touch Panel and 1200 RPM Fully Automatic Front Load Washing Machine with In-built Heater White  (FHM1207SDW)",
+      "price": "38990",
+      "category": "Washing Machine",
+      "color": "White",
+      "description": "Enjoy a delightful laundry experience and give your clothes the pampering they deserve with the innovative LG 7 kg automatic washing machine. ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/m/1/g/-original-imagx7qhej8qthtp.jpeg?q=70",
+      "id": "0kL0SaW"
+    },
+    {
+      "name": "IFB 8 kg 5 Star with Steam Refresh program, 9 Swirl Wash, Eco Inverter, Touch Panel with AI Fully Automatic Front Load Washing Machine with In-built Heater Black  (senator BXN 8012)",
+      "price": "45990",
+      "category": "Washing Machine",
+      "color": "Black",
+      "description": "Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/r/b/m/-original-imah2tx7cyakc7p8.jpeg?q=70",
+      "id": "30V9EZm"
+    },
+    {
+      "name": "LG 7 kg 5 Star with Steam, Inverter Direct Drive Technology, 6 Motion DD, Touch Panel and 1200 RPM Fully Automatic Front Load Washing Machine with In-built Heater Black, Grey  (FHM1207SDM)",
+      "price": "43990",
+      "category": "Washing Machine",
+      "color": "Grey",
+      "description": "\nWash your clothes easily with the LG 7 kg Fully Automatic Front-loading Washing Machine. Featuring the Six Motion Direct Drive technology, this washing machine can clean your clothes in a gentle, caring manner.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/m/r/e/-original-imagx7qmg7cmycjr.jpeg?q=70",
+      "id": "NFvOrR9"
+    },
+    {
+      "name": "SAMSUNG 7 kg 5 star, Ecobubble, Digital Inverter, Fully Automatic Top Load Washing Machine Grey  (WA70BG4441YYTL)",
+      "price": "22500",
+      "category": "Washing Machine",
+      "color": "Grey",
+      "description": "\nWashing clothes in an efficient manner is hassle-free with the Samsung 7 kg Fully Automatic Top-loading Washing Machine.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/y/z/n/-original-imahfs56cu7dqs4t.jpeg?q=70",
+      "id": "yggKP0O"
+    },
+    {
+      "name": "realme TechLife 7 kg 5 Star Rating Fabric Safe Wash Fully Automatic Top Load Washing Machine Black, Grey  (RMTL705NNNEG)",
+      "price": "10790",
+      "category": "Washing Machine",
+      "color": "Grey",
+      "description": "The enhanced scrubbing and swirling motion render this washing machine exceptionally efficient. Equipped with 5-layer protection features, it autonomously determines the wash cycle duration to ensure optimal cleaning performance.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/r/l/p/-original-imah3cw6nzunnedd.jpeg?q=70",
+      "id": "GIndxOW"
+    },
+    {
+      "name": "SAMSUNG Convertible 5-in-1 Cooling 2023 Model 1.5 Ton 5 Star Split Inverter WindFree Technology AC - White  (AR18CYNAMWK/AR18CYNA Copper Condenser)",
+      "price": "78990",
+      "category": "AC",
+      "color": "White",
+      "description": "\nCombining powerful operation with a user-friendly experience, the Samsung AR18CYLAMWK 1.5 ton Five-in-one Convertible Air Conditioner is an excellent choice.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-conditioner-new/j/h/d/-original-imagnhu5d6gkn6jh.jpeg?q=70",
+      "id": "eUqqbyl"
+    },
+    {
+      "name": "LG AI Convertible 6-in-1 Cooling 2024 Model 1.5 Ton 3 Star Split Dual Inverter HD Filter with Anti-Virus Protection,VIRAAT Mode, Diet Mode & ADC Sensor AC - White  (TS-Q18JNXE3, Copper Condenser)",
+      "price": "78990",
+      "category": "Air Conditioners",
+      "color": "White",
+      "description": "Auto Restart: No need to manually reset the settings post power-cut",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-conditioner-new/o/1/y/-original-imah4uy9wrhgdqaa.jpeg?q=70",
+      "id": "UExW1HH"
+    },
+    {
+      "name": "CARRIER 1.5 Ton 5 Star Split Inverter AC - White  (18K ESTER PRO EXi INVERTER R32 Split AC_CAI18ES5R34F1, Copper Condenser)",
+      "price": "76090",
+      "category": "Air Conditioners",
+      "color": "White",
+      "description": "\nThe Carrier AI Flexicool air conditioner comes with an array of features to keep you comfortable all around the year. The 6-in-1 Flexicool technology makes it capable of working in 6 different tonnage modes to provide optimum temperature at all times.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-conditioner-new/b/g/w/-original-imagykpfaak6zkbz.jpeg?q=70",
+      "id": "F4ztZOU"
+    },
+    {
+      "name": "Daikin 2023 Model 1.5 Ton 5 Star Split Inverter AC with PM 2.5 Filter - White  (RKM50UV16U / RKM50UV16V / RKM50UV16VA /MTKM50UV16U, Copper Condenser)",
+      "price": "67200",
+      "category": "Air Conditioners Ac",
+      "color": "White",
+      "description": "You can get quick relief from the scorching heat with the help of the Daikin 1.5 Ton Split Inverter Air Conditioner. Courtesy of its efficient performance, this air conditioner can help save energy and ensure high cooling efficiency.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-conditioner-new/j/6/2/-original-imagzsucqemvqpnx.jpeg?q=70",
+      "id": "fToJLWV"
+    },
+    {
+      "name": "Lloyd 1.5 Ton 5 Star Split Inverter AC - White  (GLS18I5FWBEW, Copper Condenser)",
+      "price": "66990",
+      "category": "Air Conditioners",
+      "color": "White",
+      "description": "5 Star BEE Rating 2023 : For energy savings upto 25% (compared to Non-Inverter 1 Star)",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/air-conditioner-new/s/f/p/-original-imagzk9qzpvd6vzc.jpeg?q=70",
+      "id": "w9uAbjT"
+    },
+    {
+      "name": "HOMOZE This Flying Remote Control Type 2-in-1 Indoor Outdoor Helicopter Toys for Kids  (Clear, Red)",
+      "price": "3299",
+      "category": "Toy",
+      "color": "Red",
+      "description": "\nA Must-Have Toy: It is a must-have toy in the growth of every child, funny and interesting for your little one. Trusted By Parents, Loved By Children, this Game set is the best gift for Kids & Children.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-control-toy/e/d/v/remote-control-helicopter-with-usb-chargeable-cable-for-boy-and-original-imah5zuxxyjc8huv.jpeg?q=70",
+      "id": "ge-VNjm"
+    },
+    {
+      "name": "Kmc kidoz New Hx 750 Drone Quadcopter Without Camera For Kids  (Black)",
+      "price": "3999",
+      "category": "Toy",
+      "color": "Black",
+      "description": "Age: 3+ Years",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-control-toy/8/n/z/hx-750-quadcopter-drone-360-degree-movable-drone-without-camera-original-imagxvfzter52gjk.jpeg?q=70",
+      "id": "QdVZ2Yw"
+    },
+    {
+      "name": "HOMOZE Flying Remote Control RC Induction Type 2-in-1 Indoor Outdoor Helicopter Toys  (Multicolor)",
+      "price": "3261",
+      "category": "Toy",
+      "color": "Red",
+      "description": "3dseekers Remote Control Indoor Helicopter with Infrared Sensor 3D Flashing Light and USB Charger. This Chopper Start-up within 3 Seconds automatic take off , Induction flight press the remote control button , start / stop flying you can use your hand to control it up and do Inductive suspension and collision protection, ",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-control-toy/c/q/n/flying-remote-control-rc-induction-type-2-in-1-indoor-outdoor-original-imah4zeyfh4a3676.jpeg?q=70",
+      "id": "DVCIF4m"
+    },
+    {
+      "name": "Shova Collection Remote Control Flying Helicopter with Unbreakable Blades, Sensors  (Multicolor)",
+      "price": "2999",
+      "category": "Toy",
+      "color": "Red",
+      "description": "Velocity mini remote control unbreakable body frame toy flying helicopter with LED lights infrared control. Digital proportional coaxial helicopter model. Latest super alloy structure series. Rechargeable battery. Easy control. A rechargeable 2 channel helicopter with unbreakable blades battery: li-polymer 3.7V 180mah.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-control-toy/c/q/n/flying-remote-control-rc-induction-type-2-in-1-indoor-outdoor-original-imah4zeyfh4a3676.jpeg?q=70",
+      "id": "E79ufmi"
+    },
+    {
+      "name": "BARBIE Doll house, 75+ Pieces, Pool Party Doll House with 3 Story Slide  (Multicolor)",
+      "price": "22999",
+      "category": "Toy",
+      "color": "pink",
+      "description": "\nKids can host the ultimate pool party with the Barbie Dreamhouse! This deluxe doll house has the tallest slide in the Barbie Dreamhouse series to date, with a three-story spiral design for endless fun in the sun.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/doll-doll-house/y/n/q/-original-imagv3ruz3h63tpx.jpeg?q=70",
+      "id": "HK77EO1"
+    },
+    {
+      "name": "BARBIE Signature Birthday Wish Collectible Doll in Lilac Dress with Giftable Packaging  (Multicolor)",
+      "price": "2499",
+      "category": "Toy",
+      "color": "Purple",
+      "description": "Happy birthday from Barbie! This special occasion Barbie Birthday Wishes doll wears a satiny dress blooming with printed flowers. She makes a super sweet present for anyone's big day! The package offers a place to write a note, adding a personal touch that loved ones can cherish for years to come.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/doll-doll-house/2/k/5/-original-imahy9g3udrfu7hz.jpeg?q=70",
+      "id": "C5rVhnF"
+    },
+    {
+      "name": "Aseenaa Fashion Doll & Charm Doll Combo Toy Set With Movable Joints & Ornament For Girls  (Blue, Blue)",
+      "price": "2999",
+      "category": "Toy",
+      "color": "Blue",
+      "description": "\nColour : Blue And Blue Doll Combo | Material : Non-toxic High Quality Material | | Weight : 200 Gm (approx) | Fashion Doll And Small Baby Doll Toys Set | With Beautiful Extra Dreess | Movable Joints : Neck, Hands And Legs | Comes With fashion footwear And Other Unique Ornaments ( 8 Pair Of Unique Beautiful Shoes And Many Other Items For Dressing The Dolls) ",
+      "image": "https://rukminim2.flixcart.com/image/612/612/kz065jk0/doll-doll-house/x/v/r/fashion-doll-charm-doll-combo-toy-set-with-movable-joints-original-imagb3uvtczdvg4k.jpeg?q=70",
+      "id": "W3ENSzZ"
+    },
+    {
+      "name": "Aseenaa Charm Doll Combo Toy Set With Movable Joints & Ornament For Girls | Set Of 2  (Pink, Silver)",
+      "price": "780",
+      "category": "Toy",
+      "color": "Silver",
+      "description": "\nColour : Pink And Silver Doll Combo | Material : Non-toxic Material | Made From High Quality Material | Doll Size : Height - 30cm, Length - 6cm | Weight : 80 Gm (approx) | Movable Joints : Knee, Legs, Arms, Hands And Elbow | Comes With Other Unique Ornaments ( Crown Headband, Purse And Boots) ",
+      "image": "https://rukminim2.flixcart.com/image/612/612/kz065jk0/doll-doll-house/2/9/o/charm-doll-combo-toy-set-with-movable-joints-ornament-for-girls-original-imagb3ujtdzgh7eb.jpeg?q=70",
+      "id": "g2S07K9"
+    },
+    {
+      "name": "CrazyBuy UNO Card Games UNO Show em No Mercy Card Game 168 Cards Family Night Travel Game  (Multicolor)",
+      "price": "359",
+      "category": "Toy",
+      "color": "Black",
+      "description": "Enhanced Gameplay Experience: Elevate your family game night with the uno show'em no mercy card game featuring 168 cards including extra cards with special rules and tougher penalties adding excitement and challenge for 2-10 players. Versatile Entertainment: With a total of 168pcs number matching cards this game is perfect for both kids and adults making it ideal for family nights or travel adventures providing endless hours of fun and laughter. Portable and Convenient: Compact and lightweight this card game is easy to carry and perfect for on-the-go entertainment whether you're traveling camping or simply spending quality time with loved ones at home. Educational and Fun: Not only does this game offer entertainment but it also helps improve cognitive skills critical thinking and social interaction making it a valuable addition to any game collection.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/card-game/u/e/g/5-uno-card-games-uno-show-em-no-mercy-card-game-168-cards-family-original-imah7ysupm76ketx.jpeg?q=70",
+      "id": "7Z0zb_W"
+    },
+    {
+      "name": "Naama UNO Original & UNO Flip Card Games l Classic Colour & Number Matching Card Game  (Multicolor)",
+      "price": "750",
+      "category": "Toy",
+      "color": "Purple",
+      "description": "It is a great exercise to help build up your child's interactive and interpersonal skills. This entertaining card game will surely make family get-togethers engaging and interactive. By making a match between a card in their hand and the card now visible on top of the deck, either by colour or number, players race to get rid of all of their cards as quickly as possible.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/card-game/p/j/p/3-uno-original-vs-uno-flip-card-games-classic-colour-number-original-imagq9qskbwqpxr9.jpeg?q=70",
+      "id": "wHAqMMZ"
+    }
+  ],
+  "users": [
+    {
+      "name": "Faizan Syed",
+      "email": "faizan.s@klickyfinds.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Faizan Syed",
+      "email": "rizvi.syedfaizan@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Yumna Zaidi",
+      "email": "Zaidi.yumna@klickyfinds.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "aman syed",
+      "email": "aman.s@klickyfinds.com",
+      "password": "abc@123",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    }
+  ],
+  "cart": [],
+  "orders": []
+}
