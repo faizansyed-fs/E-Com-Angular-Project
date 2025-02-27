@@ -1,0 +1,104 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+.nav h1{
+    color: coral;
+    margin: 10px;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.nav ul{
+display:inline-flex;
+list-style-type: none;
+margin-left: 90px;
+padding: 0;
+margin-top: 0;
+
+}
+.nav li{
+    padding-top: 17px;
+    padding-right: 15px;
+    /* margin-right: 10px; */
+    font-size: 22px;
+    margin-left: 38px;
+}
+.logout{
+  margin-right: 90px;
+}
+.nav li a{
+    text-decoration: none;
+    color: coral;
+    cursor: pointer;
+}
+.sname{
+  padding-top: 17px;
+  padding-right: 15px;
+  /* margin-right: 10px; */
+  font-size: 22px;
+  margin-left: 38px;
+  color: coral;
+  cursor: not-allowed;
+}
+.lg{
+    cursor:pointer;
+    margin-right: 90px;
+}
+.nav .nav-search{
+    margin-top: 6px;
+    /* flex: 1; */
+    display: flex;
+    margin-left: -80px;
+    margin-right: -180px;
+}
+.nav .nav-search input{
+    /* flex: 1; */
+    margin-top: 5px;
+    color: coral;
+    border: 1px solid coral;
+    height: 39px;
+    width: 680px;
+    border-right: 0px;
+    padding-left: 5px;
+    color: coral;
+}
+
+.nav .nav-search button{
+  color: coral;
+    border: 1px solid coral;
+    height: 39px;
+    border-left: 0px;
+    margin-top: 5px;
+}
+h1 a{
+    color: coral;
+    text-decoration: none;
+}
+.suggested-search{
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    display: list-item !important;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 350px;
+    color: white;
+  }
+  .suggested-search li {
+    padding: 5px;
+    margin-left: 0px;
+    border: 1px solid #ddd;
+   
+  }
+  .suggested-search li a{
+    cursor: pointer;
+    color: coral;
+  }
+  .searchbtn{
+    cursor: pointer;
+  }
+  .seller-1{
+    margin-right: 150px;
+  }

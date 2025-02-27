@@ -1,0 +1,33 @@
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="signup">
+        <h1>Seller Sign Up</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="c-form">
+            <input class="form-input" type="text" ngModel name="name" placeholder="Enter Name">
+            <input class="form-input" type="text" ngModel name="email" placeholder="Enter E-mail">
+            <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password">
+            <button class="form-button">Sign Up</button>
+            <a class="auth-toggle-link" (click)="openLogin()">Already have an Account? Click to Login</a>
+        </form>
+    </div>
+
+    <!-- Login Page Site -->
+
+    <div *ngIf="showLogin" class="login">
+        <h1>Seller Login</h1>
+        <p class="error-p">{{authError}}</p>
+        <form #sellerlogin="ngForm" (ngSubmit)="login(sellerlogin.value)" class="c-form">
+            <!-- <input class="form-input" type="text" ngModel name="email"required placeholder="Enter E-mail"> -->
+            <input type="text" class="form-input" name="email" placeholder="Enter Seller Email" ngModel email #email="ngModel" required email>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched " >Please enter valid E-mail</span></p>
+            <!-- <input class="form-input" type="password" ngModel name="password" placeholder="Enter Password"> -->
+            <input type="password" class="form-input" name="password" placeholder="Enter Seller Password" ngModel minlength="4" maxlength="20" #password="ngModel" required>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched " >Please enter valid Password</span></p>
+            <button [disabled]="sellerlogin.invalid" class="form-button">Login</button>
+            <!-- <button class="form-button">Login</button> -->
+            <a class="auth-toggle-link" (click)="openSingUp()">Don't have an Account? Click to Sign Up</a>
+            <div class="emp">&nbsp;</div>
+        </form>
+    </div>
+
+    </div>
+

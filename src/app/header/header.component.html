@@ -1,0 +1,45 @@
+<header class="nav">
+    <!-- <h1><a routerLink="">Klicky Finds</a></h1> -->
+    <h1>Klicky Finds</h1>
+    <div *ngIf="menuType!=='seller'" class="nav-search">
+      <input type="text"
+      #searchInput
+      (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search Products" />
+      <button (click)="submitSearch(searchInput.value)" >Search</button>
+      <ul class="suggested-search" *ngIf="searchResult">
+        <li *ngFor="let item of searchResult">
+          <a (mousedown)="redirectToDetails(item.id)" >{{item.name}}</a>
+        </li>
+      </ul>
+    </div>
+
+ <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="seller-auth">Seller</a></li>
+        <li><a routerLink="user-auth">User</a></li>
+        <li class="logout" (click)="Clickme()" ><a routerLink="/user-auth">Cart({{cartItems}})</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'" >
+      <li><a routerLink="">Home</a></li>
+      <!-- <li><a routerLink="seller-auth">Seller</a></li> -->
+      <li><a routerLink="my-orders" >My Orders</a></li>
+      <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+      <!-- <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li> -->
+      <li><a>{{userName | titlecase}}</a></li>
+      <li  class="logout"><a (click)="userLogout()" >Logout</a></li>
+      
+
+    </ul>
+
+    <ul *ngSwitchCase="'seller'" class="seller1"> 
+        <li><a routerLink="seller-add-product">Add Product</a></li>
+        <li><a routerLink="seller-auth">Product List</a></li>
+        <!-- <li><a href="#">{{sellerName | titlecase}}</a></li> -->
+        <li class="sname">{{sellerName | titlecase}}</li>
+        <li class="lg"><a (click)="logout()">Log Out</a></li>
+
+    </ul>
+
+ </div>
+    </header>

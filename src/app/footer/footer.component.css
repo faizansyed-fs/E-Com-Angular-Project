@@ -1,0 +1,230 @@
+*{
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: none;
+    box-sizing: content-box;
+ 
+    
+   
+}
+.footer-container{
+margin-top: 48px;
+color: #878787;
+text-decoration: none;
+background: #172337;
+position: absolute;
+width: 100%;
+margin-bottom: 0px;
+}
+.footer{
+display: flex; 
+margin-left: -90px;
+margin-right: 260px;
+}
+.about{
+    padding-left: 20px;
+    margin-left:  110px;
+    font-size: 22px;
+    margin-bottom: 0px;
+    padding: 20px; 
+    color: white; 
+}
+.about1{
+    font-size: 20px;
+    display: flex;  
+   margin-left: -30px;
+   color: #878787;
+   cursor: pointer;
+   text-decoration: none;
+   margin-right: -40px;
+}
+.about1:hover{
+    color: white;
+}
+.about2{
+    font-size: 20px;
+    display: flex;
+   margin-left: 0px;
+   color: #878787;
+   cursor: pointer;
+   text-decoration: none;
+}
+.about2:hover{
+    color: white;
+}
+.connect{
+    margin-left:  90px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 20px; 
+    color: white;  
+}
+.border{
+    border-left:  1px solid #878787;
+    height: 130px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 0px;
+}
+.address{
+    margin-left:  90px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 20px; 
+    color: white;
+    cursor: none;
+}
+.address-1{
+    font-size: 20px;
+    display: flex;  
+   margin-left: -25px;
+   color: #878787;
+}
+.copy-right{
+    color: coral;
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+    margin-top: -70px;
+    padding-top: -20px;
+    font-size: 19px;
+}
+.heart{
+    color:red;
+    font-size: 26px;
+    display: inline-block;
+}
+.copy-right-1{
+    color: #878787;
+    text-align: center;
+    font-weight: 800;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* .abouth2{
+margin-left: 20px;
+}
+.span1{
+color: firebrick;
+}
+
+    a{
+        text-decoration: none;
+        color: coral;
+    }
+    .hv:hover{
+         color:firebrick;
+         }
+    .dv{
+        margin-bottom: 70px;
+    }
+    .footer{
+        background : whitesmoke;
+        color: black;
+        text-align: center;
+        font-weight: 800;
+        font-size: 19px;
+        }
+        .footer1{
+            background: whitesmoke;
+            color: indianred;
+            text-align: center;
+            font-weight: 800;
+            margin: 0;
+            margin-top: -60px;
+            padding-top: -30px;
+            font-size: 19px;
+            }
+            .ht{
+                color:red;
+                font-size: 26px;
+                display: inline-block;
+                
+                }
+                hr{
+                    height: 3px;
+                    color: coral;
+                    border: none;
+                    background-color: coral;
+                
+                }
+                .ft{
+                    background : whitesmoke;
+                    font-size: 15px;
+                    display: flex;
+                    padding-right: 20px;
+                    padding-top: 10px;
+                }
+                .ab{
+                    font-size: 20px;
+                    display: flex;
+                   margin-left: 90px;
+                   
+                  
+                }
+                .ab1{
+                    font-size: 20px;
+                    display: flex;
+                  
+                }
+                .ab2{
+                    font-size: 20px;
+                    display: flex;
+                   
+                   margin-left: -22px;
+                   color: lightgrey;
+                   cursor: pointer;
+                  
+                }
+                .ab2:hover{
+                    color: black;
+                }
+                .ab3{
+                    font-size: 20px;
+                    display: flex;
+                   
+                   margin-left: -22px;
+                   color: lightgrey;
+                   cursor: pointer;
+                }
+                .ab3:hover{
+                    color: black;
+                }
+
+                .ab5{
+                    font-size: 20px;
+                    display: flex;
+                   
+                   margin-left: 0px;
+                   color: lightgrey;
+                   cursor: pointer;
+                  
+                }
+                .ab5:hover{
+                    color: black;
+                }
+                .nb{
+                   padding-left: 60px;
+                   margin-right: 120px;
+                   font-size: 22px;
+                   margin-bottom: 50px;
+                   padding: 20px;
+                   
+
+                }
+                .nb1{
+                     
+                   
+                    font-size: 22px;
+                    margin-bottom: 60px;
+                    padding: 20px;
+                    
+                 } */
+
+                    
+                

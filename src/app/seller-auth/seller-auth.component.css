@@ -1,0 +1,22 @@
+.signup{
+    text-align: center;
+    color: coral;
+    margin-bottom: 50px;
+    margin-top: 81px;
+}
+.auth-toggle-link{
+    margin-top: 20px;
+    color: coral;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+}
+.login{
+    text-align: center;
+    color: coral;
+    margin-bottom: 50px;
+    margin-top: 81px; 
+}
+.emp{
+    margin-bottom: 22px;
+}

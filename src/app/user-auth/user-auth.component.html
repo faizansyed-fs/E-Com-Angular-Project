@@ -1,0 +1,66 @@
+<div class="user-auth">
+    <div class="sign-up">
+    <div *ngIf="!showLogin"  class="sign-up">
+     <h1>User Signup</h1>
+
+     <form #userSignUp="ngForm" class="c-form" (ngSubmit)="signUp(userSignUp.value)"> 
+
+
+     <!-- <form #userSignUp="ngForm" class="c-form" (ngSubmit)="signUp(userSignUp.value)"> -->
+       <input  type="text"
+         class="form-input"
+         name="name"
+         placeholder="Enter User Name"
+         ngModel
+       />
+       <input
+         type="text"
+         class="form-input"
+         name="email"
+         placeholder="Enter User Email"
+         ngModel
+       /><input
+       type="password"
+       class="form-input"
+       name="password"
+       placeholder="Enter User Password"
+       ngModel
+     />
+     <button class="form-button">Sign Up</button>
+     <p>Already Have an Account ? <a (click)="openLogin()" >Click Here</a></p>
+     </form>
+    </div>
+                            <!-- Login Page start -->
+
+    <div *ngIf="showLogin"  class="login">
+     <h1>User Login</h1>
+     <form #userLogin="ngForm" class="c-form" (ngSubmit)="login(userLogin.value)">
+       <p class="error-p">{{authError}}</p>
+       <input
+         type="text"
+         class="form-input"
+         name="email"
+         placeholder="Enter User Email"
+         ngModel
+         email
+         #email="ngModel"
+         required
+       />
+       <p class="invalid-input"><span *ngIf="email.invalid && email.touched " >Please enter valid E-mail</span></p>
+       <input
+       type="password"
+       class="form-input"
+       name="password"
+       placeholder="Enter User Password"
+       ngModel
+       minlength="2"
+       maxlength="20"
+       #password="ngModel"
+       required
+     />
+     <p class="invalid-input"><span *ngIf="password.invalid && password.touched " >Please enter valid Password</span></p>
+     <button [disabled]="userLogin.invalid" class="form-button">Login</button>
+     <p><span class="login-btn">Don't have an Account? </span> <a (click)="openSignUp()" >Click to Register</a></p>
+     </form>
+    </div>
+   </div>

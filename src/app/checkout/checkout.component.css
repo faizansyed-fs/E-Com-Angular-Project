@@ -1,0 +1,39 @@
+*{
+margin-bottom: 50px;
+color: coral;
+}
+.checkout h1{
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.checkout h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+}
+.ship{
+   text-align: center;
+}
+.total{
+    margin-top: 100px;
+    margin-left: -190px;
+}
+.total h3{
+    margin-left: -370px;
+}
+.total-span{
+    color:black;
+
+}
+.total-span-1{
+    color: green;
+}
+h4{
+    margin-left: 78px;
+}
+.message-p{
+    color: green;
+    text-align: center;
+}
